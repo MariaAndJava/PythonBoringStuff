@@ -35,7 +35,7 @@ def copyMoveRenameFile():
 def removeDeleteFile():
     shutil.rmtree('path') #removes non empty folders with all files
     os.rmdir('path') #removes empty files
-    os.unlink('remove file')j
+    os.unlink('remove file')
 
 def send2trashInsteadOfDeleting():
     send2trash.send2trash('path\\file.txt')
